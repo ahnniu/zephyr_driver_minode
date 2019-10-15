@@ -1,0 +1,6 @@
+sample:
+  name: element14 minode Examples
+tests:
+  sample.board.bbc_microbit.display:
+    platform_whitelist: bbc_microbit
+    tags: minode examples
