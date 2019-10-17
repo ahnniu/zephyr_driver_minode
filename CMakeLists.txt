@@ -8,4 +8,5 @@ set(SHIELD element14_minode)
 include($ENV{ZEPHYR_BASE}/cmake/app/boilerplate.cmake NO_POLICY_SCOPE)
 project(minode_example)
 
-target_sources(app PRIVATE src/switch_example.c)
+# target_sources(app PRIVATE src/switch_example.c)
+target_sources(app PRIVATE src/light_example.c)
