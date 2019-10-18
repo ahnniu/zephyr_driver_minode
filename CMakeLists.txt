@@ -10,4 +10,5 @@ project(minode_example)
 
 # target_sources(app PRIVATE src/switch_example.c)
 # target_sources(app PRIVATE src/light_example.c)
-target_sources(app PRIVATE src/rotary_example.c)
+# target_sources(app PRIVATE src/rotary_example.c)
+target_sources(app PRIVATE src/sound_example.c)
